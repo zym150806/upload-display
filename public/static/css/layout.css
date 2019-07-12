@@ -1,0 +1,44 @@
+.logo{
+    width:100px;
+    height:50px;
+}
+
+.logo2{
+    width: 180px;
+    height: 50px;
+}
+
+.logo3{
+    width: 70px;
+    height: 70px;
+}
+
+.dash-line {border-top:1px dashed #cccccc;height: 1px;overflow:hidden;}
+
+.padding-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.letter-spacing-5 {
+    letter-spacing:5px;
+}
+
+
+.middle {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.small-bottom {
+    margin-bottom: 0.2rem;
+}

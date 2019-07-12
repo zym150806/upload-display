@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link href="/static/css/fileinput.min.css" rel="stylesheet">
+
+    <title>Demo</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div>
+            <a href="javascript:void(0);">
+                <img class="logo2" src="static/img/logo1.jpg">
+                <img class="logo3" src="static/img/logo2.jpg">
+            </a>
+        </div>
+
+        <h3 class="text-center font-weight-bold">TAL-Brain眼动测试体验报告</h3>
+        <div>
+            <div>
+                <p>被试：{{.Name}}</p>
+                <p>日期：{{.Date}}</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="dash-line padding-10"></div>
+
+    <!-- part 1 -->
+    <div class="" style="padding-bottom: 20px;">
+        <h4><b>Part1: 标点、词切分对阅读的影响</b></h4>
+        <p>Head map:热力图用来指示被试在某一区域停留时间的长短和集中程度；红色代表注视的时间长，绿色代表注视的时间较短。
+            有标点&词切分的文本阅读过程更顺畅，所以通常长时间注视的区域会少于无标点&词切分的文本。</p>
+        <div>
+            <img class="col-sm-5" src="{{.image1}}">
+            <img class="col-sm-5" src="{{.image2}}">
+        </div>
+    </div>
+    <div class="dash-line padding-10"></div>
+
+    <!-- part 2 -->
+    <div class="" style="padding-bottom: 20px;">
+        <div class="float-left col-sm-5">
+                <h4><b>Part2: 排版对阅读的影响</b></h4>
+                <p>视线扫描路径主要是呈现注视点的路径与直径变化。在阅读相关的研究中多用于表现阅读的顺序；另外，直径越大，表示注视点停留的时间越长。</p>
+
+        </div>
+        <div>
+            <img class="col-sm-5" src="{{.image3}}">
+        </div>
+
+    </div>
+    <div class="dash-line padding-10"></div>
+
+    <!-- part 3 -->
+    <div class="" style="padding-bottom: 20px;">
+        <h4><b>Part3: 认知负荷对学习的影响</b></h4>
+        <p class="small-bottom">Total Fixation Duration:总注视时长，指的是被试在目标区域内停留时间的总和。</p>
+        <p class="small-bottom">First Fixation Duration:首视时长，指被试从打开页面到视线注意到目标区域的时长。</p>
+        <p class="small-bottom">Fixation Count:注视点个数，被试在目标区域被眼动仪记录的注视点个数。</p>
+        <div>
+            <img class="col-sm-5" src="{{.image4}}">
+            <img class="col-sm-5" src="{{.image5}}">
+        </div>
+    </div>
+    <div class="dash-line"></div>
+    <div>
+        <span class="float-right font-weight-light"><small>注：本测试以功能体验为目的，测试结果仅供参考。</small></span>
+    </div>
+    <footer class="padding-top-30">
+        <div class="text-center">
+            <h2 class="letter-spacing-5 font-weight-bold align-self-center">好未来TI教育智能大会</h2>
+            <h4 class="align-self-center">2019 TAL AL SUMMIT</h4>
+        </div>
+    </footer>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="/static/js/jquery.slim.min.js" type="text/javascript"></script>
+<script src="/static/js/popper.min.js" type="text/javascript"></script>
+<script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
