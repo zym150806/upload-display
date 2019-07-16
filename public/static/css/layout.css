@@ -45,6 +45,12 @@
 
 .big-img {
     width:49%;
+    height: 300px;
+}
+
+.big-img-right {
+    width:49%;
+    height: 290px;
 }
 
 .normal-line-height {
