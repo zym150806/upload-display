@@ -42,3 +42,20 @@
 .small-bottom {
     margin-bottom: 0.2rem;
 }
+
+.big-img {
+    width:49%;
+}
+
+.normal-line-height {
+    line-height: 1.0;
+}
+
+.width-1200 {
+    width: 1200px;
+}
+
+.center-text {
+    padding-top: 15px;
+    line-height: 1.5;
+}

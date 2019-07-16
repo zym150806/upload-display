@@ -13,7 +13,7 @@
     <title>Demo</title>
 </head>
 <body>
-<div class="container">
+<div class="container width-1200">
     <header>
         <div>
             <a href="javascript:void(0);">
@@ -24,7 +24,7 @@
 
         <h3 class="text-center font-weight-bold">TAL-Brain眼动测试体验报告</h3>
         <div>
-            <div>
+            <div class="normal-line-height">
                 <p>被试：{{.Name}}</p>
                 <p>日期：{{.Date}}</p>
             </div>
@@ -36,24 +36,24 @@
     <!-- part 1 -->
     <div class="" style="padding-bottom: 20px;">
         <h4><b>Part1: 标点、词切分对阅读的影响</b></h4>
-        <p>Head map:热力图用来指示被试在某一区域停留时间的长短和集中程度；红色代表注视的时间长，绿色代表注视的时间较短。
+        <p class="lead">Head map:热力图用来指示被试在某一区域停留时间的长短和集中程度；红色代表注视的时间长，绿色代表注视的时间较短。
             有标点&词切分的文本阅读过程更顺畅，所以通常长时间注视的区域会少于无标点&词切分的文本。</p>
         <div>
-            <img class="col-sm-5" src="{{.image1}}">
-            <img class="col-sm-5" src="{{.image2}}">
+            <img class="big-img" src="{{.image1}}">
+            <img class="big-img" src="{{.image2}}">
         </div>
     </div>
     <div class="dash-line padding-10"></div>
 
     <!-- part 2 -->
     <div class="" style="padding-bottom: 20px;">
-        <div class="float-left col-sm-5">
+        <div class="float-left col-sm-6">
                 <h4><b>Part2: 排版对阅读的影响</b></h4>
-                <p>视线扫描路径主要是呈现注视点的路径与直径变化。在阅读相关的研究中多用于表现阅读的顺序；另外，直径越大，表示注视点停留的时间越长。</p>
+                <p  class="lead center-text">视线扫描路径主要是呈现注视点的路径与直径变化。在阅读相关的研究中多用于表现阅读的顺序；另外，直径越大，表示注视点停留的时间越长。</p>
 
         </div>
         <div>
-            <img class="col-sm-5" src="{{.image3}}">
+            <img class="col-sm-6" src="{{.image3}}">
         </div>
 
     </div>
@@ -62,12 +62,12 @@
     <!-- part 3 -->
     <div class="" style="padding-bottom: 20px;">
         <h4><b>Part3: 认知负荷对学习的影响</b></h4>
-        <p class="small-bottom">Total Fixation Duration:总注视时长，指的是被试在目标区域内停留时间的总和。</p>
-        <p class="small-bottom">First Fixation Duration:首视时长，指被试从打开页面到视线注意到目标区域的时长。</p>
-        <p class="small-bottom">Fixation Count:注视点个数，被试在目标区域被眼动仪记录的注视点个数。</p>
+        <p class="small-bottom lead">Total Fixation Duration:总注视时长，指的是被试在目标区域内停留时间的总和。</p>
+        <p class="small-bottom lead">First Fixation Duration:首视时长，指被试从打开页面到视线注意到目标区域的时长。</p>
+        <p class="small-bottom lead padding-bottom-10">Fixation Count:注视点个数，被试在目标区域被眼动仪记录的注视点个数。</p>
         <div>
-            <img class="col-sm-5" src="{{.image4}}">
-            <img class="col-sm-5" src="{{.image5}}">
+            <img class="big-img" src="{{.image4}}">
+            <img class="big-img" src="{{.image5}}">
         </div>
     </div>
     <div class="dash-line"></div>
